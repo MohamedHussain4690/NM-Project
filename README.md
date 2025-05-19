@@ -1,9 +1,26 @@
 Project: Urban Planning and Design
 
-AI-Driven Urban Design and Planning is a groundbreaking initiative that redesigns the way cities are planned, designed, and built through artificial intelligence capabilities, spatial data processing, and Internet of Things (IoT) technology. This smart system utilizes sophisticated AI models to help develop optimal urban plans, offer real-time IoT-linked infrastructure insights, and enable safe, scalable urban planning procedures.
+This project introduces a complete and modular AI-Powered Urban Planning and Design System to enable smart, data-based decisions in the development of cities, with a specific usage around Aalim College. The system simulates sophisticated urban infrastructures like buildings, roads, zones, and IoT sensors within an integrated and expandable Python environment. It is a core utility for smart city simulation, analysis, and future planning.
 
-At its essence, the system combines spatial data analysis, GIS (Geographic Information System), and principles of architectural design to create intelligent, data-backed suggestions for urban development. The last process in the pipeline uses AI-based algorithms to suggest efficient design options, study urban behavior, and respond to changing conditions through continuous IoT-enabled monitoring.
+Features – Key Functionalities:
+      1.Modular Urban Plan Modeling: Manage, create, and analyze multiple urban plans with buildings, roads, zones, and IoT sensors.
+      2.Dynamic Zoning: Enables multiple types of zones (residential, commercial, industrial, recreational, mixed-use, special purpose) with the option to               associate buildings with zones.
+      3.IoT Sensor Integration: Emulates real-time monitoring of the environment by sensors that track traffic flow, air quality, noise, pedestrians, water               levels, and energy consumption.
+      4.Geospatial Intelligence: Models geographic coordinates with distance computations and estimated area calculation for land use analytics.
 
-This repository consists of an extensive summary of the finished project, including system demonstrations, extensive documentation, technical performance reports, major features of the codebase, and thorough test outcomes. Visual content in the form of architectural diagrams, GIS-integrated drawings, and annotated code excerpts is available to facilitate a better understanding of the entire potential of the system.
 
-The AI-Powered Urban Planning and Design initiative is an innovative response for urban expansion that provides smart diagnostics and actionable intelligence to inform sustainable and smart city development.
+Technology Used – Languages, Tools, and Libraries
+Programming Language: Python 3.11+
+
+Libraries & Tools:
+uuid, datetime, enum, typing, and json for core functionality and serialization
+Object-oriented design principles for modularity and extensibility
+
+How It Works – Project Workflow:
+      1.Plan Creation: The system begins by initializing a new urban plan with metadata (name, description).
+      2.Zone Definition: The users create geographic zones with polygon boundaries and assign them types (residential, commercial, etc.).
+      3.Building & Road Integration: Buildings and roads are created with defined geometries and properties like height, floors, road width, and traffic flow.
+      4.Sensor Deployment: IoT sensors are deployed at precise coordinates and fed with simulated or real-time sensor values.
+      5.Data Aggregation: All elements are interrelated, supporting sophisticated queries such as filtering buildings based on zone type or tracking traffic             information by sensor.
+      6.Demonstration Script: An pre-coded script (demonstrate_system) automatically demonstrates all functionality by emulating a smart city area surrounding             Aalim College.
+
