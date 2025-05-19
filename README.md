@@ -3,7 +3,7 @@ Project: Urban Planning and Design
 This project introduces a complete and modular AI-Powered Urban Planning and Design System to enable smart, data-based decisions in the development of cities, with a specific usage around Aalim College. The system simulates sophisticated urban infrastructures like buildings, roads, zones, and IoT sensors within an integrated and expandable Python environment. It is a core utility for smart city simulation, analysis, and future planning.
 
 Features – Key Functionalities:
-      1.Modular Urban Plan Modeling: Manage, create, and analyze multiple urban plans with buildings, roads, zones, and IoT sensors.
+1.Modular Urban Plan Modeling: Manage, create, and analyze multiple urban plans with buildings, roads, zones, and IoT sensors.
       2.Dynamic Zoning: Enables multiple types of zones (residential, commercial, industrial, recreational, mixed-use, special purpose) with the option to               associate buildings with zones.
       3.IoT Sensor Integration: Emulates real-time monitoring of the environment by sensors that track traffic flow, air quality, noise, pedestrians, water               levels, and energy consumption.
       4.Geospatial Intelligence: Models geographic coordinates with distance computations and estimated area calculation for land use analytics.
