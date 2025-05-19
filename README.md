@@ -4,25 +4,30 @@ This project introduces a complete and modular AI-Powered Urban Planning and Des
 
 ##      Features – Key Functionalities:
 
-   -Modular Urban Plan Modeling: Develop and maintain urban plans with buildings, roads, zones, and sensors.
-   -Dynamic Zoning: Multiple zone types and building-zone associations support.
-   -IoT Sensor Integration: Emulate real-time monitoring with virtual environmental sensors.
-   -Geospatial Intelligence: Calculate distance and area based on geographic coordinates.
+   -   Modular Urban Plan Modeling: Develop and maintain urban plans with buildings, roads, zones, and sensors.
+   -   Dynamic Zoning: Multiple zone types and building-zone associations support.
+   -   IoT Sensor Integration: Emulate real-time monitoring with virtual environmental sensors.
+   -   Geospatial Intelligence: Calculate distance and area based on geographic coordinates.
 
+---
 
 ##      Technology Used – Languages, Tools, and Libraries
    **Programming Language**: Python 3.11+
 
+---
+
 ##      Libraries & Tools:
 
-   -uuid, datetime, enum, typing, and json for core functionality and serialization
+   -   uuid, datetime, enum, typing, and json for core functionality and serialization
    Object-oriented design principles for modularity and extensibility
+
+---
 
 ##      How It Works – Project Workflow:
    
-   -Plan Creation: Start a new city plan with name and description.
-   -Zone Definition: Create zones as polygon boundaries and define zone types.
-   -Building & Road Integration: Insert buildings and roads with geometries and attributes.
-   -Sensor Deployment: Deploy the IoT sensors with coordinates and input data.
-   -Demonstration Script: Auto-runs a smart city demo around Aalim College.
+   -   Plan Creation: Start a new city plan with name and description.
+   -   Zone Definition: Create zones as polygon boundaries and define zone types.
+   -   Building & Road Integration: Insert buildings and roads with geometries and attributes.
+   -   Sensor Deployment: Deploy the IoT sensors with coordinates and input data.
+   -   Demonstration Script: Auto-runs a smart city demo around Aalim College.
 
